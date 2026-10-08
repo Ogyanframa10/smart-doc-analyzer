@@ -67,4 +67,4 @@ Useful debugging command: `aws logs tail /aws/lambda/<function-name> --since 1h`
 Textract has 1,000 free pages/month for the first 3 months; Comprehend is pay-per-use (cents for testing). Delete the S3 bucket, Lambda, DynamoDB table, IAM role and log group when done.
 
 ## Author
-Aaron Nii Nai Nai — IT audit / cybersecurity GRC professional moving into cloud. [LinkedIn](#) · [GitHub](https://github.com/Ogyanframa10)
+Aaron Nii Nai Nai — IT audit / cybersecurity GRC professional moving into cloud. [LinkedIn](www.linkedin.com/in/aaron-nai-07b869259) · [GitHub](https://github.com/Ogyanframa10)
