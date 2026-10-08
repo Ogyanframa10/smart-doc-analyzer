@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ReadUploads",
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/uploads/*"
+    },
+    {
+      "Sid": "TextractAndComprehend",
+      "Effect": "Allow",
+      "Action": [
+        "textract:DetectDocumentText",
+        "comprehend:DetectSentiment",
+        "comprehend:DetectEntities"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "WriteResults",
+      "Effect": "Allow",
+      "Action": "dynamodb:PutItem",
+      "Resource": "arn:aws:dynamodb:REGION:ACCOUNT_ID:table/cloudwithshad-documents"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.zip
+.env
+.aws/
+.DS_Store
