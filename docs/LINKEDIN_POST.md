@@ -7,7 +7,7 @@ Upload a PDF or image to S3 and, within seconds, a pipeline:
 -> analyzes sentiment and named entities with Amazon Comprehend
 -> stores the structured result in DynamoDB
 
-Stack: S3, Lambda (Python 3.12), Textract, Comprehend, DynamoDB, IAM, CloudWatch.
+Stack: S3, Lambda (Python 3.14), Textract, Comprehend, DynamoDB, IAM, CloudWatch.
 
 What made it more than a tutorial for me:
 - Least-privilege IAM instead of FullAccess managed policies
@@ -18,7 +18,7 @@ What made it more than a tutorial for me:
 
 My background is IT audit and cybersecurity GRC, so I'm especially interested in how services like this handle access control, logging and data protection. I'm now moving into cloud and software roles.
 
-Code and architecture write-up: [PASTE GITHUB LINK]
+Code and architecture write-up: https://github.com/Ogyanframa10/smart-doc-analyzer
 
 Feedback is welcome, and I'm open to remote cloud opportunities.
 
